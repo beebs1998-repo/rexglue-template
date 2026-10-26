@@ -1,9 +1,9 @@
 I want to create a new project on current folder. 
-Copy the methodology from latest completed sister projects: `i:\workspace\rexglue-mushi\`.
-After everything ready, start build the game.
+Copy the methodology from latest completed sister projects: `i:\workspace\rexglue-<projectname>\`, read their `AGENTS.md` for clues. Be smart and efficient, if there's something has done by sister project then utilize it instead of re-working the same job.
+After everything set up, start building the game.
 
 ## About: 
-A Recompilation of the Xbox 360 shooter Dodonpachi Resurrection (DFKR) using ReXGlue. This is the fourth recomp project. This project doesn't have github repo or access to remote yet so we're going to work locally. I have provided `game_data` for local development. And also `user_data` from Xenia Canary, this includes DLC that should be unlocked on the game. 
+A Recompilation of the Xbox 360 game using ReXGlue. This project doesn't have github repo or access to remote yet so we're going to work locally. I have provided `game_data` for local development. And also `user_data` from Xenia Canary, this includes DLC that should be unlocked on the game. 
 
 ## Submodules: 
 Add and initialize two submodules to `thirdparty` folder. Both submodules have their own submodules that are not initialized.
@@ -13,6 +13,8 @@ Add and initialize two submodules to `thirdparty` folder. Both submodules have t
 4. `git submodule update --init --recursive`
 
 ## Sister projects: 
-1. `i:\workspace\rexglue-futari\` (1st).
-2. `i:\workspace\rexglue-dfkbl\` (2nd).
+1. `i:\workspace\rexglue-<1st>\` (1st).
+2. `i:\workspace\rexglue-<2nd>\` (2nd).
 
+## Other Tools
+XEX tools: `i:\workspace\360tools\`
